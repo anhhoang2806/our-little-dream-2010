@@ -1,0 +1,36 @@
+{
+  "name": "our-little-dream-2010",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Our Little Dream — một món quà 20/10 nhỏ dành riêng cho vợ yêu.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "qa": "node scripts/qa.mjs",
+    "qr": "node scripts/make-qr.mjs",
+    "card": "node scripts/make-card.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "motion": "^11.18.2",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.5.2",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^24.10.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
