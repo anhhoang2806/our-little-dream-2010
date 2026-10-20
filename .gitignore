@@ -6,3 +6,4 @@ qa-shots
 # never commit the original family photo
 photo/
 *.heic
+*.tsbuildinfo
