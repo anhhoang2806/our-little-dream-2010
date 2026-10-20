@@ -64,7 +64,7 @@ export default function PrintCard() {
 
       <div className="relative flex h-full flex-col items-center text-center" style={{ padding: '11mm 9mm 0' }}>
         <p style={{ fontSize: '7pt', letterSpacing: '0.35em', fontWeight: 600, color: '#b0566f' }}>20 · 10</p>
-        <p className="font-script" style={{ fontSize: '17pt', fontWeight: 700, lineHeight: 1.2, color: '#8a3a4f', marginTop: '2.5mm' }}>
+        <p className="font-script" style={{ fontSize: '17pt', fontWeight: 700, lineHeight: 1.2, color: '#8a3a4f', marginTop: '2.5mm', textWrap: 'balance' }}>
           {content.print.lines[0]}
         </p>
         <div style={{ width: '50mm', marginTop: '1mm' }}>
